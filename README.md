@@ -24,3 +24,5 @@ Here is comparison of June and December Statistics.
 * Standard Deviation for both the months are very close and hardly difference of **.49**
 
 **Conclusion** - The above analysis concludes that as there is not much variations in the temperature over 6 months the weather is very much favorable for the shop to sustain.
+
+## June and December Year wise averages
