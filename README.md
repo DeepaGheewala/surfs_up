@@ -30,7 +30,7 @@ As part of additional data analysis on June and December, I created two function
 This helps in comparing and understanding in fluctions of weather in June and December month. 
 Below images shows the June and December month data year wise.
 
-<p align="center"> <img src="Images/June & December Year wise data.png"  align="center" height="250" width="200"></p>
+<p align="center"> <img src="Images/June & December Year wise data.png"  align="center" height="250" width="500"></p>
 
 Functions used to fetch above data
 ```python
@@ -75,10 +75,10 @@ As part of additional data analysis on June and December, I created two function
 This helps in comparing and understanding in fluctions of weather in June and December montn for each Station. So that will decide if the shop opening be avoided at any station.
 Below images shows the June and December month data year wise.
 
-<p align="center"> <img src="Images/June & December StationID wise data.png"  align="center" height="250" width="200"></p>
+<p align="center"> <img src="Images/June & December StationID wise data.png"  align="center" height="250" width="500"></p>
 
-- to check all the station data for June - [Click here](Images/June Temperatures for different stations.png)
-- to check all the station data for December - [Click here](Images/Dec Temperatures for different stations.png)
+- to check all the station data for June - [Click here](https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/Images/June%20Temperatures%20for%20different%20stations.png)
+- to check all the station data for December - [Click here](https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/Images/Dec%20Temperatures%20for%20different%20stations.png)
 - 
 Functions used to fetch above data
 ```python
@@ -131,6 +131,7 @@ Here we also fetched the Precepitation data, to find how much rainfall happens a
 
 
 # Resources
+[Code file] (https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/SurfsUp_Challenge.ipynb)
 ### Software
 1) Python
 2) Sqllite
