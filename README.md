@@ -10,7 +10,7 @@ For analyzing this we will be using a sqllite database which had 7 stations data
 - for different years
 
 # Results
-## June and December Temperature analysis
+## 1) June and December Temperature analysis
 The temperature analysis is based on the weather data collected from nine different stations from the year 2010 to 2017. 
 Here is comparison of June and December Statistics.
 
@@ -25,4 +25,9 @@ Here is comparison of June and December Statistics.
 
 **Conclusion** - The above analysis concludes that as there is not much variations in the temperature over 6 months the weather is very much favorable for the shop to sustain.
 
-## June and December Year wise averages
+## 2) June and December Year wise averages
+As part of additional data analysis on June and December, I created two functions to get June and December month temperatures for 7 years.
+This helps in comparing and understanding in fluctions of weather in June and December month. 
+Below images shows the June and December month data year wise.
+
+
