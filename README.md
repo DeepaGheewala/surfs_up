@@ -25,7 +25,9 @@ Here is comparison of June and December Statistics.
 
 **Conclusion** - The above analysis concludes that as there is not much variations in the temperature over 6 months the weather is very much favorable for the shop to sustain.
 
-# Additional Analysis
+# Summary - Additional Analysis
+The statistics of June and December month shows a favorable condition to open a store. In order to further analyze data in various aspects, we did more analysis on year wise, station wise and precipitation data
+
 ## 2) June and December Year wise averages
 As part of additional data analysis on June and December, I created two functions to get June and December month temperatures for 7 years.
 This helps in comparing and understanding in fluctions of weather in June and December month. 
