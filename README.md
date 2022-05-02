@@ -25,6 +25,7 @@ Here is comparison of June and December Statistics.
 
 **Conclusion** - The above analysis concludes that as there is not much variations in the temperature over 6 months the weather is very much favorable for the shop to sustain.
 
+# Additional Analysis
 ## 2) June and December Year wise averages
 As part of additional data analysis on June and December, I created two functions to get June and December month temperatures for 7 years.
 This helps in comparing and understanding in fluctions of weather in June and December month. 
@@ -79,7 +80,7 @@ Below images shows the June and December month data year wise.
 
 - to check all the station data for June - [Click here](https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/Images/June%20Temperatures%20for%20different%20stations.png)
 - to check all the station data for December - [Click here](https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/Images/Dec%20Temperatures%20for%20different%20stations.png)
-- 
+
 Functions used to fetch above data
 ```python
 # This function called `calc_temps_StationWise` will accept start date and end date STATION WISE in the format '%Y-%m-%d' 
@@ -131,7 +132,7 @@ Here we also fetched the Precepitation data, to find how much rainfall happens a
 
 
 # Resources
-[Code file] (https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/SurfsUp_Challenge.ipynb)
+[Code file](https://github.com/DeepaGheewala/surfs_up/blob/9a7bf02e5a698a6b4668f37d836475ccb990ef06/SurfsUp_Challenge.ipynb)
 ### Software
 1) Python
 2) Sqllite
