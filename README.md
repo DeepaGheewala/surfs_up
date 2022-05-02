@@ -127,7 +127,7 @@ The analysis concludes that there is little fluctions on temperatures for each s
 
 Here we also fetched the Precepitation data, to find how much rainfall happens at each Station.
 
-<p align="center"> <img src="Images/PrecData.png"  align="center" height="250" width="200"></p> 
+<p align="center"> <img src="Images/PrecData.png"  align="center" height="250" width="500"></p> 
 
 
 # Resources
