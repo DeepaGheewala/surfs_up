@@ -30,4 +30,46 @@ As part of additional data analysis on June and December, I created two function
 This helps in comparing and understanding in fluctions of weather in June and December month. 
 Below images shows the June and December month data year wise.
 
+<p align="center"> <img src="Images/June & December Year wise data.png"  align="center" height="250" width="200"></p>
+
+Functions used to fetch above data
+```python
+# This function called `calc_temps` will accept start date and end date in the format '%Y-%m-%d' 
+# and return the minimum, average, and maximum temperatures for that range of dates
+def calc_temps(start_date, end_date):
+        
+    return session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).\
+        filter(Measurement.date >= start_date).filter(Measurement.date <= end_date).all()
+
+```
+
+```python
+# This function is to display data for 7 years
+def displayMoreInfo(month):
+    year=['2010', '2011', '2012', '2013', '2014', '2015', '2016']
+
+    print('\033[1m' + 'Year   Min    Avg       Max ' + '\033[0m')
+    print('-----------------------------')
+    for yr in year:
+        start_date = yr + '-' + month + '-01'
+        end_date = yr + '-' + month + '-30'
+
+
+        result = calc_temps(start_date, end_date) #Calling temperature fetch for date range
+        print(f'{yr}   {result[0][0]}   {np.round(result[0][1],2)}     {result[0][2]} ')
+```
+
+```python
+# Calling display function
+print('\033[1m' + 'June Temperatures for 7 years' + '\033[0m')
+print(' ')
+displayMoreInfo('06')
+
+```
+
+This analysis concludes that the average weather temperatures are around 74 degrees in June month and around 71 degrees in December every year.
+Also the min and max does not fluctuate too much so that helps to predict that temperatures are great for opening the shop.
+
+## 3) June and December Station wise averages
+As part of additional data analysis on June and December, I created two functions to get June and December month temperatures for 7 years.
 
